@@ -81,7 +81,7 @@ async function checkNews() {
 
         // Send article to Flask backend
         const response = await fetch(
-            "http://127.0.0.1:5000/predict",
+            "https://newsguard-ai-57le.onrender.com/predict",
             {
                 method: "POST",
 
